@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Momo News"
 include(":app")
- 
+include(":Core")

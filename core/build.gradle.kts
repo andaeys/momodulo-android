@@ -48,6 +48,7 @@ dependencies {
     testImplementation(libs.mockito.core)
     testImplementation(libs.gson)
     testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.junit.v412)
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

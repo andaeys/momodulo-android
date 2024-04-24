@@ -37,7 +37,18 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    // Kotlin Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.moshi)
+
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.gson)
+    testImplementation(libs.kotlinx.coroutines.test)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }

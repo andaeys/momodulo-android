@@ -40,7 +40,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 
-    //dagger Hilt
+    //dagger Hiltk
     implementation(libs.hilt.android)
     kapt(libs.dagger.hilt.android.compiler)
 
